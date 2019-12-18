@@ -2,7 +2,7 @@
 
 Namespace WinCCLibrary
     <ComVisible(True)>
-    <ProgId("TiaLib.DLL")>
+    <ProgId("WinCCLibrary.DLL")>
     Public Class LibraryClass
 
         Public Sub New()
