@@ -14,4 +14,21 @@ To use the DLL in WinCC is necessary to register with the following Command Prom
 ```console
 C:\Windows\Microsoft.NET\Framework\V4.0.30319>RegAsm /CODEBASE C:\...\WinCCLibrary.dll pause
 ```
-If all go well you can see the following text in Command Prompt
+If all went well you can see the following text in Command Prompt
+![Untitled](https://user-images.githubusercontent.com/34168918/71071012-1e864a00-217c-11ea-8b9d-a84904b0d6bd.png)
+
+## Use library's methods in WinCC VBS script
+Create a new VBS script file and try library's method as following
+```
+Sub WinCCLibTest()
+
+On Error Resume Next
+Dim obj
+Set obj = CreateObject("WinCCLibrary.dll")
+MsgBox(obj.Info())
+
+End Sub
+```
+
+## Versions
+WinCC Professional v15.1, Visual Studio Community 2019
