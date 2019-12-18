@@ -1,5 +1,5 @@
 # WinCCLibrary
-Source code to generate a simple DLL library that can be use in WinCC's script.
+Source code to create a simple Dynamic-Link Library (DLL) which can be used in WinCC's script (VBS and C++).
 
 
 ## Compile the project and get the DLL
