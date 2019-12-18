@@ -14,17 +14,17 @@ Namespace WinCCLibrary
         End Function
 
         Public Function GetDateTime() As String
-            Dim dateTime As String = Format(Now(), "MM/dd/yyyy HH:mm:ss")
+            Dim dateTime As String = Format(Now, "MM/dd/yyyy HH:mm:ss")
             Return dateTime
         End Function
 
         Public Function GetDate() As String
-            Dim dt As String = Format(Now(), "MM/dd/yyyy")
+            Dim dt As String = Format(Now, "MM/dd/yyyy")
             Return dt
         End Function
 
         Public Function GetTime() As String
-            Dim t As String = Format(Now(), "HH:mm:ss")
+            Dim t As String = Format(Now, "HH:mm:ss")
             Return t
         End Function
 
