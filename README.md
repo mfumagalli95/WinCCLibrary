@@ -10,7 +10,7 @@ Compile the project with Visual Studio and get the DLL in project path ".../WinC
 
 
 ## Register DLL on system
-To use the DLL in WinCC is necessary to register with the following Command Prompt
+To use the DLL in WinCC is necessary to register it with the following Command Prompt
 ```console
 C:\Windows\Microsoft.NET\Framework\V4.0.30319>RegAsm /CODEBASE C:\...\WinCCLibrary.dll pause
 ```
